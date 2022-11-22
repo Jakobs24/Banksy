@@ -1,0 +1,196 @@
+body {
+  font-family: Biryani;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FAF7F0;
+}
+
+
+header {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+ h1 img {
+   width: 15%;
+ }
+
+.menu {
+    background-color: #815B5B;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    z-index: 2;
+    color: #fff;
+}
+
+.menu-bars {
+  width: 30px;
+}
+
+nav {
+  position: absolute;
+  left: 65px;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+nav a {
+  font-size: 32px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+}
+
+.open {
+  transform: translate(0);
+}
+
+.natural {
+  padding-right: 260px;
+  position: relative;
+}
+
+.natural:hover img {
+  transform: rotate(-5deg);
+}
+
+.natural img {
+   transition: transform 0.5s ease;
+}
+
+.natural h2 {
+   transition: transform 0.5s ease;
+}
+
+.natural:hover h2 {
+  transform: scale(1.15);
+}
+
+.natural h2 {
+  font-size: 62px;
+  line-height: 1.125;
+  font-weight: 700;
+}
+
+.natural .copy {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 360px;
+  transform: translateY(-50%);
+}
+
+.one-thing {
+  padding-left: 360px;
+  position: relative;
+}
+
+.one-thing .copy {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 480px;
+}
+
+.one-thing .copy,
+.one-thing img {
+  transition: transform 0.5s ease;
+}
+
+.one-thing:hover .copy {
+  transform: scale(1.1) translateX(20px);
+}
+
+.one-thing:hover img {
+   transform: rotate(10deg);
+}
+
+.one-thing h3 {
+  font-size: 32px;
+  font-weight:700;
+  margin-bottom: 20px;
+}
+
+.one-thing p {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.lookbook {
+  background-image: url("../images/banky3.jpeg");
+  padding: 220px 20px 180px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.lookbook h2 {
+    font-size: 64px;
+    color: #000;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.lookbook:hover h2 {
+  transform: scale(0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.last {
+  padding-left: 260px;
+  position: relative;
+}
+
+.last .copy {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 360px;
+  transform: translateY(-50%);
+}
+
+.last h2 {
+  font-size: 62px;
+  line-height: 1.125;
+  font-weight: 700;
+}
+
+.last:hover img {
+  transform: rotate(5deg);
+}
+
+.last img {
+   transition: transform 0.5s ease;
+}
+
+.last h2 {
+   transition: transform 0.5s ease;
+}
+
+.last:hover h2 {
+  transform: scale(1.15);
+}
+
